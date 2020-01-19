@@ -1,6 +1,6 @@
 #if !defined(USING_MAP_DATUM)
 
-	#include "themis-alpha-1-centcomm.dmm"
+//	#include "themis-alpha-1-centcomm.dmm"
 	#include "themis-alpha-3-sub2.dmm"
 	#include "themis-alpha-4-sub1.dmm"
 	#include "themis-alpha-5-main.dmm"
@@ -11,7 +11,8 @@
 	#include "themis_shuttles.dm"
 //	#include "northern_star_jobs.dm"
 //	#include "job/outfits.dm"
-	#include "mapcode/themis_decals.dm"
+	#include "code/mapcode/themis_decals.dm"
+	#include "themis_lifts.dm"
 
 	#define USING_MAP_DATUM /datum/map/themis
 
