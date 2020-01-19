@@ -72,45 +72,25 @@
 	Regardless, you find it quite difficult to land shots where you wanted them to go."
 	modifier_type = /datum/modifier/trait/inaccurate
 
-/datum/trait/modifier/physical/shorter
-	name = "Shorter"
-	modifier_type = /datum/modifier/trait/shorter
-	mutually_exclusive = list(/datum/trait/modifier/physical/short, /datum/trait/modifier/physical/tall, /datum/trait/modifier/physical/taller)
+/datum/trait/modifier/physical/smaller
+	name = "Smaller"
+	modifier_type = /datum/modifier/trait/smaller
+	mutually_exclusive = list(/datum/trait/modifier/physical/small, /datum/trait/modifier/physical/large, /datum/trait/modifier/physical/larger)
 
-/datum/trait/modifier/physical/short
-	name = "Short"
-	modifier_type = /datum/modifier/trait/short
-	mutually_exclusive = list(/datum/trait/modifier/physical/shorter, /datum/trait/modifier/physical/tall, /datum/trait/modifier/physical/taller)
+/datum/trait/modifier/physical/small
+	name = "Small"
+	modifier_type = /datum/modifier/trait/small
+	mutually_exclusive = list(/datum/trait/modifier/physical/smaller, /datum/trait/modifier/physical/large, /datum/trait/modifier/physical/larger)
 
-/datum/trait/modifier/physical/tall
-	name = "Tall"
-	modifier_type = /datum/modifier/trait/tall
-	mutually_exclusive = list(/datum/trait/modifier/physical/shorter, /datum/trait/modifier/physical/short, /datum/trait/modifier/physical/taller)
+/datum/trait/modifier/physical/large
+	name = "Large"
+	modifier_type = /datum/modifier/trait/large
+	mutually_exclusive = list(/datum/trait/modifier/physical/smaller, /datum/trait/modifier/physical/small, /datum/trait/modifier/physical/larger)
 
-/datum/trait/modifier/physical/taller
-	name = "Taller"
-	modifier_type = /datum/modifier/trait/taller
-	mutually_exclusive = list(/datum/trait/modifier/physical/shorter, /datum/trait/modifier/physical/short, /datum/trait/modifier/physical/tall)
-
-/datum/trait/modifier/physical/thin
-	name = "Thin"
-	modifier_type = /datum/modifier/trait/thin
-	mutually_exclusive = list(/datum/trait/modifier/physical/fat, /datum/trait/modifier/physical/obese, /datum/trait/modifier/physical/thinner)
-
-/datum/trait/modifier/physical/thinner
-	name = "Rail Thin"
-	modifier_type = /datum/modifier/trait/thinner
-	mutually_exclusive = list(/datum/trait/modifier/physical/fat, /datum/trait/modifier/physical/obese, /datum/trait/modifier/physical/thin)
-
-/datum/trait/modifier/physical/fat
-	name = "Broad-Shouldered"
-	modifier_type = /datum/modifier/trait/fat
-	mutually_exclusive = list(/datum/trait/modifier/physical/thin, /datum/trait/modifier/physical/obese, /datum/trait/modifier/physical/thinner)
-
-/datum/trait/modifier/physical/obese
-	name = "Heavily Built"
-	modifier_type = /datum/modifier/trait/obese
-	mutually_exclusive = list(/datum/trait/modifier/physical/fat, /datum/trait/modifier/physical/thinner, /datum/trait/modifier/physical/thin)
+/datum/trait/modifier/physical/larger
+	name = "Larger"
+	modifier_type = /datum/modifier/trait/larger
+	mutually_exclusive = list(/datum/trait/modifier/physical/smaller, /datum/trait/modifier/physical/small, /datum/trait/modifier/physical/large)
 
 /datum/trait/modifier/physical/colorblind_protanopia
 	name = "Protanopia"
@@ -245,7 +225,6 @@
 	desc = "You know, deep down, that synthetics cannot be trusted, and so you are always on guard whenever you see one wandering around.  No one knows how a Positronic's mind works, \
 	Drones are just waiting for the right time for Emergence, and the poor brains trapped in the cage of Man Machine Interfaces are now soulless, despite being unaware of it.  None \
 	can be trusted."
-
 /datum/trait/modifier/mental/xenophobe
 	name = "Xenophobic"
 	desc = "The mind of the Alien is unknowable, and as such, their intentions cannot be known.  You always watch the xenos closely, as they most certainly are watching you \
@@ -258,38 +237,31 @@
 		/datum/trait/modifier/mental/teshariphobe,
 		/datum/trait/modifier/mental/prometheanphobe
 	)
-
 /datum/trait/modifier/mental/humanphobe
 	name = "Human-phobic"
 	desc = "Boilerplate racism for monkeys goes here."
 	mutually_exclusive = list(/datum/trait/modifier/mental/xenophobe)
-
 /datum/trait/modifier/mental/skrellphobe
 	name = "Skrell-phobic"
 	desc = "Boilerplate racism for squid goes here."
 	mutually_exclusive = list(/datum/trait/modifier/mental/xenophobe)
-
 /datum/trait/modifier/mental/tajaraphobe
 	name = "Tajaran-phobic"
 	desc = "Boilerplate racism for cats goes here."
 	mutually_exclusive = list(/datum/trait/modifier/mental/xenophobe)
-
 /datum/trait/modifier/mental/unathiphobe
 	name = "Unathi-phobic"
 	desc = "Boilerplate racism for lizards goes here."
 	mutually_exclusive = list(/datum/trait/modifier/mental/xenophobe)
-
 // Not sure why anyone would hate/fear these guys but for the sake of completeness here we are.
 /datum/trait/modifier/mental/dionaphobe
 	name = "Diona-phobic"
 	desc = "Boilerplate racism for trees goes here."
 	mutually_exclusive = list(/datum/trait/modifier/mental/xenophobe)
-
 /datum/trait/modifier/mental/teshariphobe
 	name = "Teshari-phobic"
 	desc = "Boilerplate racism for birds goes here."
 	mutually_exclusive = list(/datum/trait/modifier/mental/xenophobe)
-
 /datum/trait/modifier/mental/prometheanphobe
 	name = "Promethean-phobic"
 	desc = "Boilerplate racism for jellos goes here."
