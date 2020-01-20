@@ -318,6 +318,18 @@
 	icon_state = "freezer"
 	initial_flooring = /decl/flooring/tiling/freezer
 
+/turf/simulated/floor/tiled/ramp
+	name = "foot ramp"
+	icon = 'icons/turf/flooring/ramps.dmi'
+	icon_state = "ramptop"
+	initial_flooring = /decl/flooring/reinforced/ramp
+
+/turf/simulated/floor/tiled/ramp/bottom
+	name = "foot ramp"
+	icon = 'icons/turf/flooring/ramps.dmi'
+	icon_state = "rampbot"
+	initial_flooring = /decl/flooring/reinforced/ramp/bottom
+
 /turf/simulated/floor/lino
 	name = "lino"
 	icon = 'icons/turf/flooring/linoleum.dmi'
