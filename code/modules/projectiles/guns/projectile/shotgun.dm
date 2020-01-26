@@ -134,3 +134,10 @@
 	ammo_type = /obj/item/ammo_casing/a12g/pellet
 	w_class = ITEMSIZE_NORMAL
 	force = 5
+
+//Sandros Colony
+/obj/item/weapon/gun/projectile/shotgun/pump/colony
+	icon = 'icons/obj/gun_colony.dmi'
+	name = "riot shotgun"
+	icon_state = "shotgunc"
+	item_state = "shotgunc"
