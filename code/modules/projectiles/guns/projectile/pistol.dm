@@ -326,3 +326,56 @@
 
 /obj/item/weapon/gun/projectile/p92x/large
 	magazine_type = /obj/item/ammo_magazine/m9mm/large // Spawns with illegal magazines.
+
+
+//Sandros colony
+/obj/item/weapon/gun/projectile/colony
+	icon = 'icons/obj/gun_colony.dmi'
+/obj/item/weapon/gun/projectile/colony/police
+	name = ".45 Pistol"
+	desc = "A police standard issue pistol. Uses .45 rounds."
+	icon_state = "cpistol"
+
+/obj/item/weapon/gun/projectile/colony/police/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "cpistol"
+	else
+		icon_state = "cpistol-e"
+
+
+/obj/item/weapon/gun/projectile/colony/military
+	name = ".45 Pistol"
+	desc = "A Brook T2 'Resilience', the common service sidearm of the Terran Military."
+	icon_state =  "milpistol"
+
+/obj/item/weapon/gun/projectile/colony/military/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "milpistol"
+	else
+		icon_state = "milpistol-e"
+
+
+/obj/item/weapon/gun/projectile/colony/military/senior
+	desc = "A Brook T2 'Resilience', but with silver inlay and a wooden grip. Designed for Senior Enlisted of the Terran Military."
+	icon_state = "milpistolSNCO"
+
+/obj/item/weapon/gun/projectile/colony/military/senior/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "milpistolSNCO"
+	else
+		icon_state = "milpistolSNCO-e"
+
+
+/obj/item/weapon/gun/projectile/colony/military/officer
+	desc = "A Brook T2 'Resilience', but with golden inlay and a redwood hrip. Designed for Officers of the Terran Military."
+	icon_state = "milpistolOfficer"
+
+/obj/item/weapon/gun/projectile/colony/military/officer/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "milpistolOfficer"
+	else
+		icon_state = "milpistolOfficer-e"

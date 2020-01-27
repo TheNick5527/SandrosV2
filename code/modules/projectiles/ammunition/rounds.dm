@@ -322,6 +322,11 @@
 	desc = "A 5.45mm hunting bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a545/hunter
 
+/obj/item/ammo_casing/a545/rubber
+	desc = "A 5.45mm rubber bullet casing."
+	projectile_type = /obj/item/projectile/bullet/pistol/rubber/strong
+
+
 /*
  * 5mm Caseless
  */
