@@ -15,7 +15,7 @@
 /datum/gear/head/beret
 	display_name = "beret, red"
 	path = /obj/item/clothing/head/beret
-
+/*
 /datum/gear/head/beret/bsec
 	display_name = "beret, navy (officer)"
 	path = /obj/item/clothing/head/beret/sec/navy/officer
@@ -30,7 +30,7 @@
 	display_name = "beret, navy (hos)"
 	path = /obj/item/clothing/head/beret/sec/navy/hos
 	allowed_roles = list("Head of Security")
-
+*/
 /datum/gear/head/beret/csec
 	display_name = "beret, corporate (officer)"
 	path = /obj/item/clothing/head/beret/sec/corporate/officer
@@ -336,7 +336,7 @@
 /datum/gear/head/welding/engie
 	display_name = "welding, engie (engineering/robotics)"
 	path = /obj/item/clothing/head/welding/engie
-
+/*
 /datum/gear/head/beret/sol
 	display_name = "beret sol, selection"
 	path = /obj/item/clothing/head/beret/sol
@@ -348,7 +348,7 @@
 		var/obj/item/clothing/head/beret/sol/sol = sol_style
 		sols[initial(sol.name)] = sol
 	gear_tweaks += new/datum/gear_tweak/path(sortAssoc(sols))
-
+*/
 /datum/gear/head/surgery
 	display_name = "surgical cap selection"
 	description = "Choose from a number of rings of different caps."

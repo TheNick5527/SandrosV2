@@ -11,6 +11,11 @@
 #define Z_LEVEL_TRANSIT					9
 #define Z_LEVEL_SURFACE_WILD			10
 
+/*
+//Added for testing reasons
+#define Z_LEVEL_SURFACE_SANDROS			11
+*/
+
 /datum/map/southern_cross
 	name = "Southern Cross"
 	full_name = "Southern Cross"
@@ -171,6 +176,15 @@
 	name = "Plains"
 	flags = MAP_LEVEL_STATION|MAP_LEVEL_CONTACT|MAP_LEVEL_PLAYER|MAP_LEVEL_SEALED
 	base_turf = /turf/simulated/floor/outdoors/rocks
+
+/*
+//Sandros Colony Tests
+/datum/map_z_level/southern_cross/sandroscolony
+	z = Z_LEVEL_SURFACE_SANDROS
+	name = "Sandros Colony"
+	flags = MAP_LEVEL_STATION|MAP_LEVEL_CONTACT|MAP_LEVEL_PLAYER|MAP_LEVEL_SEALED
+	base_turf = /turf/simulated/floor/outdoors/rocks
+*/
 
 /datum/map_z_level/southern_cross/surface_mine
 	z = Z_LEVEL_SURFACE_MINE

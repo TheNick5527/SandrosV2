@@ -92,7 +92,7 @@
 		var/obj/item/clothing/under/pants/short_type = short
 		shorts[initial(short_type.name)] = short_type
 	gear_tweaks += new/datum/gear_tweak/path(sortAssoc(shorts))
-
+/*
 /datum/gear/uniform/job_skirt/ce
 	display_name = "skirt, ce"
 	path = /obj/item/clothing/under/rank/chief_engineer/skirt
@@ -162,7 +162,7 @@
 	display_name = "skirt, hos"
 	path = /obj/item/clothing/under/rank/head_of_security/skirt
 	allowed_roles = list("Head of Security")
-
+*/
 /datum/gear/uniform/job_turtle/science
 	display_name = "turtleneck, science"
 	path = /obj/item/clothing/under/rank/scientist/turtleneck
@@ -182,7 +182,7 @@
 	display_name = "turtleneck, medical"
 	path = /obj/item/clothing/under/rank/medical/turtleneck
 	allowed_roles = list("Chief Medical Officer", "Paramedic", "Medical Doctor", "Psychologist", "Search and Rescue", "Chemist")
-
+/*
 /datum/gear/uniform/jeans_qm
 	display_name = "jeans, QM"
 	path = /obj/item/clothing/under/rank/cargo/jeans
@@ -202,7 +202,7 @@
 	display_name = "female jeans, cargo"
 	path = /obj/item/clothing/under/rank/cargotech/jeans/female
 	allowed_roles = list("Quartermaster","Cargo Technician")
-
+*/
 /datum/gear/uniform/suit/lawyer
 	display_name = "suit, one-piece selection"
 	path = /obj/item/clothing/under/lawyer
@@ -246,7 +246,7 @@
 /datum/gear/uniform/suit/whiteskirt
 	display_name = "suit, white skirt"
 	path = /obj/item/clothing/under/scratch/skirt
-
+/*
 /datum/gear/uniform/suit/detectiveskirt
 	display_name = "suit, detective skirt (Detective)"
 	path = /obj/item/clothing/under/det/skirt
@@ -261,7 +261,7 @@
 	display_name = "suit, bartender skirt (Bartender)"
 	path = /obj/item/clothing/under/rank/bartender/skirt
 	allowed_roles = list("Bartender")
-
+*/
 /datum/gear/uniform/scrub
 	display_name = "scrubs selection"
 	path = /obj/item/clothing/under/rank/medical/scrubs
@@ -325,7 +325,7 @@
 	path = /obj/item/clothing/under/dress/dress_hr
 
 	allowed_roles = list("Head of Personnel")
-
+/*
 /datum/gear/uniform/navysecsuit
 	display_name = "uniform, navy blue (Security)"
 	path = /obj/item/clothing/under/rank/security/navyblue
@@ -340,7 +340,7 @@
 	display_name = "uniform, navy blue (Head of Security)"
 	path = /obj/item/clothing/under/rank/head_of_security/navyblue
 	allowed_roles = list("Head of Security")
-
+*/
 /datum/gear/uniform/shortplaindress
 	display_name = "plain dress"
 	path = /obj/item/clothing/under/dress/white3
