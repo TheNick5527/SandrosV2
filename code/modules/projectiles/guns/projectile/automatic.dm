@@ -402,3 +402,68 @@
 		item_state = "bullpup-empty"
 	if(!ignore_inhands)
 		update_held_icon()
+
+
+//Sandros Colony
+/obj/item/weapon/gun/projectile/automatic/colony
+	icon = 'icons/obj/gun_colony.dmi'
+
+/obj/item/weapon/gun/projectile/colony
+	icon = 'icons/obj/gun_colony.dmi'
+
+
+/obj/item/weapon/gun/projectile/automatic/colony/rifle
+	name = "automatic rifle"
+	desc = "The LEM19 automatic rifle is produced by Saito Industries, a company branched off of Ward-Takahashi. It is commonly used by Law Enforcement. It uses 5.45mm ammo."
+	icon_state = "crifle"
+	item_state = "crifle"
+	w_class = ITEMSIZE_LARGE
+	force = 10
+	caliber = "5.45mm"
+	wielded_item_state = "crifle-wielded"
+	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 1)
+	slot_flags = SLOT_BACK
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/m545police
+	allowed_magazines = list(/obj/item/ammo_magazine/m545police)
+	projectile_type = /obj/item/projectile/bullet/rifle/a545
+
+//	one_handed_penalty = 30
+
+	firemodes = list(
+		list(mode_name="semiauto",       burst=1, fire_delay=0,    move_delay=null, burst_accuracy=null, dispersion=null),
+		list(mode_name="3-round bursts", burst=3, fire_delay=null, move_delay=6,    burst_accuracy=list(0,-15,-30), dispersion=list(0.0, 0.6, 0.6))
+		)
+
+/obj/item/weapon/gun/projectile/automatic/colony/rifle/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "crifle"
+	else
+		icon_state = "crifle-e"
+
+
+/obj/item/weapon/gun/projectile/colony/carbine
+	name = ".45 carbine"
+	desc = "A police-issued carbine. Uses .45 ammo."
+	ammo_type = /obj/item/ammo_casing/a45
+	icon_state = "ccarbine"
+	item_state = "ccarbine"
+	w_class = ITEMSIZE_LARGE
+	force = 10
+	caliber = ".45"
+	wielded_item_state = "ccarbine-wielded"
+	origin_tech = list(TECH_COMBAT = 2, TECH_MATERIAL = 2)
+	slot_flags = SLOT_BACK
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/m45carb
+	allowed_magazines = list(/obj/item/ammo_magazine/m45carb)
+	projectile_type = /obj/item/projectile/bullet/pistol/medium
+
+
+/obj/item/weapon/gun/projectile/colony/carbine/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "ccarbine"
+	else
+		icon_state = "ccarbine-e"

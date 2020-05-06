@@ -29,7 +29,7 @@
 /datum/gear/utility/camera
 	display_name = "camera"
 	path = /obj/item/device/camera
-
+/*
 /datum/gear/utility/codex
 	display_name = "the traveler's guide to vir"
 	path = /obj/item/weapon/book/codex/lore/vir
@@ -39,7 +39,7 @@
 	display_name = "daedalus pocket newscaster"
 	path = /obj/item/weapon/book/codex/lore/news
 	cost = 0
-
+*/
 /datum/gear/utility/corp_regs
 	display_name = "corporate regulations and legal code"
 	path = /obj/item/weapon/book/codex/corp_regs
@@ -148,12 +148,12 @@
 	display_name = "vocal synthesizer, EAL"
 	description = "A surgically implanted vocal synthesizer which allows the owner to speak EAL, if they know it."
 	path = /obj/item/weapon/implant/language/eal
-
+/*
 /datum/gear/utility/implant/language/skrellian
 	display_name = "vocal synthesizer, Skrellian"
 	description = "A surgically implanted vocal synthesizer which allows the owner to speak Common Skrellian, if they know it."
 	path = /obj/item/weapon/implant/language/skrellian
-
+*/
 /datum/gear/utility/pen
 	display_name = "Fountain Pen"
 	path = /obj/item/weapon/pen/fountain

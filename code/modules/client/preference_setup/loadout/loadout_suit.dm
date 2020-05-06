@@ -65,7 +65,7 @@
 /datum/gear/suit/brown_jacket_nt/sleeveless
 	display_name = "leather vest, corporate, brown"
 	path = /obj/item/clothing/suit/storage/toggle/brown_jacket/nanotrasen/sleeveless
-
+/*
 /datum/gear/suit/mil
 	display_name = "military jacket"
 	path = /obj/item/clothing/suit/storage/miljacket
@@ -77,7 +77,7 @@
 /datum/gear/suit/mil/green
 	display_name = "military jacket, green"
 	path = /obj/item/clothing/suit/storage/miljacket/green
-
+*/
 /datum/gear/suit/greyjacket
 	display_name = "grey jacket"
 	path = /obj/item/clothing/suit/storage/greyjacket

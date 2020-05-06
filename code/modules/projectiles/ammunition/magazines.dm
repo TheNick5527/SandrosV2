@@ -188,6 +188,7 @@
 	name = "speedloader (.45 AP)"
 	ammo_type = /obj/item/ammo_casing/a45/ap
 
+
 ///////// 5mm Caseless /////////
 
 /obj/item/ammo_magazine/m5mmcaseless
@@ -701,3 +702,60 @@
 	matter = list(DEFAULT_WALL_MATERIAL = 600)
 	max_ammo = 7
 	multiple_sprites = 1
+
+
+////////////Sandros Colony/////////////////
+
+/obj/item/ammo_magazine/m45carb
+	name = "magazine (.45)"
+	desc = "A carbine magazine with a colored band signifying the ammo inside."
+	icon_state = "ccarbmag"
+	ammo_type = /obj/item/ammo_casing/a45
+	mag_type = MAGAZINE
+	matter = list(DEFAULT_WALL_MATERIAL = 1125) //metal costs are very roughly based around 1 .45 casing = 75 metal
+	caliber = ".45"
+	max_ammo = 15
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/m45carb/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/m45carb/rubber
+	name = "magazine (.45 rubber)"
+	icon_state = "ccarbmagr"
+	ammo_type = /obj/item/ammo_casing/a45/rubber
+/*
+/obj/item/ammo_magazine/m45c/practice
+	name = "magazine (.45 practice)"
+	ammo_type = /obj/item/ammo_casing/a45/practice
+
+/obj/item/ammo_magazine/m45c/flash
+	name = "magazine (.45 flash)"
+	ammo_type = /obj/item/ammo_casing/a45/flash
+
+/obj/item/ammo_magazine/m45c/ap
+	name = "magazine (.45 AP)"
+	ammo_type = /obj/item/ammo_casing/a45/ap
+*/
+
+
+/obj/item/ammo_magazine/m545police
+	name = "magazine (5.45mm)"
+	desc = "A double-stacked magazine with a colored band signifying the ammo inside."
+	icon_state = "criflemag"
+	origin_tech = list(TECH_COMBAT = 2)
+	mag_type = MAGAZINE
+	caliber = "5.45mm"
+	matter = list(DEFAULT_WALL_MATERIAL = 1800)
+	ammo_type = /obj/item/ammo_casing/a545
+	max_ammo = 20
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/m545police/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/m545police/rubber
+	name = "magazine (5.45mm rubber)"
+	icon_state = "criflemagr"
+	ammo_type = /obj/item/ammo_casing/a545/rubber
+
