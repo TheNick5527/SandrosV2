@@ -821,6 +821,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Medbay Maintenance - Fore"
 	icon_state = "maint_medbay_fore"
 
+/area/maintenance/medbay_morgue_basement
+	name = "Medbay Maintenance - Morgue Basement"
+	icon_state = "maint_medbay_fore"
+
 /area/maintenance/pool
 	name = "Pool Maintenance"
 	icon_state = "maint_pool"
@@ -1779,6 +1783,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/medical/morgue
 	name = "\improper Morgue"
+	icon_state = "morgue"
+
+/area/medical/morgue_basement
+	name = "\improper Morgue Basement"
+	icon_state = "morgue"
+
+/area/medical/morgue_crematorium
+	name = "\improper Morgue Crematorium"
 	icon_state = "morgue"
 
 /area/medical/chemistry
