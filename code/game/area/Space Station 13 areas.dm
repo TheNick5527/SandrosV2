@@ -853,6 +853,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Security Maintenance - Starboard"
 	icon_state = "maint_security_starboard"
 
+/area/maintenance/security_level1
+	name = "Security Maintenance - Level 1"
+	icon_state = "maint_security_port"
+
+/area/maintenance/security_level2
+	name = "Security Maintenance - Level 2"
+	icon_state = "maint_security_starboard"
+
 /area/maintenance/storage
 	name = "Atmospherics"
 	icon_state = "green"
@@ -1837,8 +1845,16 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "\improper Security Office"
 	icon_state = "security"
 
+/area/security/mainlvl2
+	name = "\improper Security Office Level 2"
+	icon_state = "security"
+
 /area/security/lobby
 	name = "\improper Security Lobby"
+	icon_state = "security"
+
+/area/security/lobbylvl2
+	name = "\improper Security Lobby Level 2"
 	icon_state = "security"
 
 /area/security/brig
@@ -1874,13 +1890,13 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "armory"
 	ambience = AMBIENCE_HIGHSEC
 
+/area/security/security_eva
+	name = "\improper Security - EVA"
+	icon_state = "eva"
+
 /area/security/briefing_room
 	name = "\improper Security - Briefing Room"
 	icon_state = "brig"
-
-/area/security/evidence_storage
-	name = "\improper Security - Equipment Storage"
-	icon_state = "security_equipment_storage"
 
 /area/security/evidence_storage
 	name = "\improper Security - Evidence Storage"
@@ -1907,8 +1923,24 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "\improper Security - Security Aid Station"
 	icon_state = "security_aid_station"
 
+/area/security/solitary_1
+	name = "\improper Isolation-1"
+	icon_state = "brig"
+
+/area/security/solitary_2
+	name = "\improper Isolation-2"
+	icon_state = "brig"
+
+/area/security/execution
+	name = "\improper Execution Chamber"
+	icon_state = "sec_prison"
+
 /area/security/security_bathroom
 	name = "\improper Security - Restroom"
+	icon_state = "security_bathroom"
+
+/area/security/security_washroom
+	name = "\improper Security - Washroom"
 	icon_state = "security_bathroom"
 
 /area/security/security_cell_hallway
@@ -1921,6 +1953,10 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/security/security_lockerroom
 	name = "\improper Security - Locker Room"
+	icon_state = "security_lockerroom"
+
+/area/security/security_training
+	name = "\improper Security - Training Room"
 	icon_state = "security_lockerroom"
 
 /area/security/security_processing
