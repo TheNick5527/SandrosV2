@@ -565,6 +565,12 @@
 	desc = "A lightweight blue plate carrier vest. It can be equipped with armor plates, but provides no protection of its own."
 	icon_state = "pcarrier_blue"
 
+/obj/item/clothing/suit/armor/pcarrier/medic
+	name = "blue medic plate carrier"
+	desc = "A lightweight blue plate carrier vest. This one has a red cross embroidered on it, identifying its wearer as medical personnel. It can be equipped with armor plates, but provides no protection of its own."
+	icon_state = "pcarrier_medic"
+	starting_accessories = list (/obj/item/clothing/accessory/armor/armorplate, /obj/item/clothing/accessory/armor/tag/solgov/medic)
+
 /obj/item/clothing/suit/armor/pcarrier/press
 	name = "light blue plate carrier"
 	desc = "A lightweight light blue plate carrier vest. It can be equipped with armor plates, but provides no protection of its own."
