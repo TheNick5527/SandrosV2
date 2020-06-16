@@ -481,3 +481,31 @@
 	name = "ambrosia deus seeds box"
 	desc = "Contains the seeds you need to get a proper healthy high."
 	starts_with = list(/obj/item/seeds/ambrosiadeusseed = 7)
+
+/obj/item/weapon/storage/box/colonypolice/pistol
+	name = "colony police .45 pistol ammo"
+	desc = "It has a picture of a gun and several warning symbols on the front.<br>WARNING: Live ammunition. Misuse may result in serious injury or death."
+	icon_state = "ammobox"
+	item_state_slots = list(slot_r_hand_str = "syringe_kit", slot_l_hand_str = "syringe_kit")
+	starts_with = list(/obj/item/ammo_magazine/m45 = 8)
+
+/obj/item/weapon/storage/box/colonypolice/pistol/rubber
+	name = "colony police .45R pistol ammo"
+	desc = "It has a picture of a gun and several warning symbols on the front.<br>WARNING: Rubber ammunition. Misuse may result in serious injury or death."
+	icon_state = "ammobox"
+	item_state_slots = list(slot_r_hand_str = "syringe_kit", slot_l_hand_str = "syringe_kit")
+	starts_with = list(/obj/item/ammo_magazine/m45/rubber = 8)
+
+/obj/item/weapon/storage/box/colonypolice/carbine
+	name = "colony police .45 carbine ammo"
+	desc = "It has a picture of a gun and several warning symbols on the front.<br>WARNING: Live ammunition. Misuse may result in serious injury or death."
+	icon_state = "ammobox"
+	item_state_slots = list(slot_r_hand_str = "syringe_kit", slot_l_hand_str = "syringe_kit")
+	starts_with = list(/obj/item/ammo_magazine/m45 = 8)
+
+/obj/item/weapon/storage/box/colonypolice/carbine/rubber
+	name = "colony police .45R carbine ammo"
+	desc = "It has a picture of a gun and several warning symbols on the front.<br>WARNING: Rubber ammunition. Misuse may result in serious injury or death."
+	icon_state = "ammobox"
+	item_state_slots = list(slot_r_hand_str = "syringe_kit", slot_l_hand_str = "syringe_kit")
+	starts_with = list(/obj/item/ammo_magazine/m45/rubber = 8)
